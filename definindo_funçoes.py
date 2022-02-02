@@ -7,5 +7,5 @@ Funções são pquenos trechos de código que realizam tarefas específicas
 — muito úteis para executar procedimentos similares por repetidas vezes
 
 
-++++++++++++++++++++++++++++++++------------++++++++++++++++++++++++++++--------
+++++++++++++++++++++++++++++++++------------++++++++++++++++++++++++++++--------+++++++++
 """
