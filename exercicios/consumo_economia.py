@@ -1,17 +1,6 @@
-def consumo():
-  num1 = int(input('Digite o 1º número: '))
-  num2 = int(input('Digite o 2º número: '))
-  operador = input('Escolha o operqdo +:-:*:/ : ')
-  resp = 0
-  if operador == '+':
-    resp = num1 + num2
-  elif operador == '-':
-    resp = num1 - num2
-  elif operador == '*':
-    resp = num1 * num2
-  elif operador == '/':
-    resp = num1 / num2
-  print(f'O consumo foi de {resp} Km/l')
+def consumo(km, comb):
+  resp = km / comb
+  print(f'O consumo foi de {resp:.2f} Km/l')
   if resp < 8:
     print('Venda o carro')
   elif 8 < resp < 14:
@@ -20,4 +9,6 @@ def consumo():
     print('Super econômico')
 
 
-consumo()
+km = int(input('Digite a kilometragem: '))
+comb = int(input('Digite a quantidade de combustível: '))
+consumo(km, comb)
