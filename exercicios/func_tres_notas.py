@@ -1,13 +1,13 @@
 def notas(nota1, nota2, nota3, leter):
-  media = 0
-  if leter == 'a':
-    media = (nota1 + nota2 + nota3) / 3
-  elif leter == 'p':
-    nota1 = nota1 / 5
-    nota2 = nota2 / 3
-    nota3 = nota3 / 2
-    media = (nota1 + nota2 + nota3) / 3
-  print(media)
+    media = 0
+    if leter == 'a':
+        media = (nota1 + nota2 + nota3) / 3
+    elif leter == 'p':
+        nota1 = nota1 / 5
+        nota2 = nota2 / 3
+        nota3 = nota3 / 2
+        media = (nota1 + nota2 + nota3) / 3
+    print(media)
 
 
 nota1 = float(input('Digite a nota1: '))
