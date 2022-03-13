@@ -1,8 +1,8 @@
 """
 O *args é um parâmetro como outro qualquer, pode ser atribuido com qualquer nome desde que começe com *.
-Por convenção se utiliza o * args.
+Por convenção se utiliza o *args.
 
-O parâmetro args utilizado em uma função, coloca os valores extras informados em um tupla, não esquecer que tuplas são
+O parâmetro *args utilizado numa função, coloca os valores extras informados em um tupla, não esquecer que tuplas são
 sempre imutáveis.
 
 EX:
@@ -20,9 +20,7 @@ def soma_numeros(*args):
 
 
 numeros = [1, 2, 3, 4, 5, 6, 7]
-soma_numeros(*numeros)  Ao atribuir o * na váriavel o python realiza o desempacotamento automáticamente
+soma_numeros(*numeros) Ao atribuir o * na váriavel o python realiza o desempacotamento automáticamente
 O * informa que passamos como argumento uma coleção de dados
 
 """
-
-
